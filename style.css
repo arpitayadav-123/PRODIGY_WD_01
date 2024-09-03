@@ -1,0 +1,44 @@
+*{padding: top 5px;; margin:0;margin-left:5px;margin-right:10px; box-sizing:border-box;}
+.logo{
+display:flex;
+justify-content:left;
+font-family:'Gill Sans MT';
+font-size:35px;
+color:cornsilk;
+}
+.menu a{
+width:250px;
+height:10px;
+display:inline-flex;
+justify-content: center;
+font-family:arial;
+font-size:20px;
+color:blanchedalmond;
+padding-left:60px;
+padding: inline end 10%;;
+}
+.middle{
+display:flex;
+align-items: center;
+font-family: 'Lucida Sans';
+font-size:90px;
+color:burlywood;
+transition: color 0.2s;
+:hover{
+    color:brown
+}
+}
+.para1{
+display:flex;
+align-items: center;
+color:rgb(252, 192, 113);
+font-family:Cambria;
+font-size:25px;
+}
+.para2{
+    display:flex;
+    align-items: center;
+    color:rgb(252, 192, 113);
+    font-family:Georgia;
+    font-size: 25px;
+    }
